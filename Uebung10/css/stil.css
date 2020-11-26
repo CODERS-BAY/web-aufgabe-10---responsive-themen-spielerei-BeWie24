@@ -1,0 +1,93 @@
+html,
+body {
+    /* hier werden die standartgesetzten Abstände für die ganze Seiten rausgelöscht*/
+    width: 100%;
+    font-size: 110%;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    /*diese Schriftart für alle Seiten und Bereiche*/
+    color: #273c75;
+}
+
+header {
+    background-color: #1589ec;
+}
+
+nav ul {
+    max-width: 50%;
+    /* Maximalbreite der Liste*/
+    margin: auto;
+    /* die Liste wird zentriert*/
+    padding: 0;
+    /* der Innenabstand, den alle UL haben wird entfernt*/
+    list-style: none;
+    /* keine Aufzählungszeichen mit none */
+    display: flex;
+    /* die Links werden nebeneinander gereiht*/
+    justify-content: space-between;
+    /* der Leerraum wird ZWISCHEN den Items verteilt*/
+}
+
+nav li {
+    padding-top: 1rem;
+    /*für Abstand der Navigationslinks*/
+}
+
+header nav a {
+    color: navy;
+    font-weight: bold;
+    text-decoration: none;
+    /* die Unterstreichung bei Links wird entfernt*/
+}
+
+.headerh1 {
+    display: flex;
+    justify-content: center;
+    /* das Flexitem wird zentriert*/
+    color: white;
+    letter-spacing: 0.3em;
+    /* der Zeichenabstand wird hier erhöht*/
+    font-family: 'Dancing Script', cursive;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+h2 {
+    text-align: center;
+}
+
+.flexcontainer1 {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.flexitem1 {
+    text-align: center;
+    padding: 1rem;
+}
+
+.flexcontainer2 {
+    width: 300px;
+    padding: 1rem;
+    display: flex;
+}
+
+.flexitem2 {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+footer {
+    height: 4em;
+    background-color: #1589ec;
+}
+
+.foot {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
